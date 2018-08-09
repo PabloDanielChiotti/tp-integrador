@@ -12,7 +12,7 @@ import org.springframework.data.jpa.repository.config.EnableJpaAuditing;
 import java.util.stream.Stream;
 
 @SpringBootApplication
-@ComponentScan(basePackages = {"com.kaitzen"})
+//@ComponentScan(basePackages = {"com.kaitzen"})
 @EnableJpaAuditing
 public class Main {
 
